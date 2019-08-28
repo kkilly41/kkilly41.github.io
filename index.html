@@ -40,6 +40,7 @@ limitations under the License.
      * Handles the sign in button press.
      */
     function toggleSignIn() {
+	alert('yep');
       if (firebase.auth().currentUser) {
         // [START signout]
         firebase.auth().signOut();
