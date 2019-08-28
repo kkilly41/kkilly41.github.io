@@ -47,42 +47,22 @@
 			modal.style.display = "none";
 		    }
 		}
-		</script>
 
-		
-		<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
-		<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
 		<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
 
 		<script>
 		  // Your web app's Firebase configuration
 		  var firebaseConfig = {
-		    apiKey: "AIzaSyArZqAPlWqR5Ro4rnXdSQBoxhq3L5VVmuc",
-		    authDomain: "ourkillerparty.firebaseapp.com",
-		    databaseURL: "https://ourkillerparty.firebaseio.com",
-		    projectId: "ourkillerparty",
-		    storageBucket: "ourkillerparty.appspot.com",
-		    messagingSenderId: "930737488501",
-		    appId: "1:930737488501:web:39c8b88c3b4c9d2a"
+		    apiKey: "AIzaSyCuseoXer-L4UzbtXPoJblO5MNhrcTRXeU",
+		    authDomain: "ourkillerparty-89f44.firebaseapp.com",
+		    databaseURL: "https://ourkillerparty-89f44.firebaseio.com",
+		    projectId: "ourkillerparty-89f44",
+		    storageBucket: "",
+		    messagingSenderId: "882523215492",
+		    appId: "1:882523215492:web:03c577ee21186e8b"
 		  };
 		  // Initialize Firebase
 		  firebase.initializeApp(firebaseConfig);
 		</script>
-		
-		<!-- Add Firebase products that you want to use -->
-		<script src="/__/firebase/6.4.2/firebase-auth.js"></script>
-		<script src="/__/firebase/6.4.2/firebase-firestore.js"></script>
-		<script src="/__/firebase/init.js"></script>
-		<script>
-		function handleClick() {
-
-			firebase.auth().signInWithEmailAndPassword(document.getElementById("myusername").value, document.getElementById("mypassword").value).catch(function(error) {
-			  // Handle Errors here.
-			  var errorCode = error.code;
-			  var errorMessage = error.message;
-
-			});
-		}
-	</script>
 	</body>
 </html>
